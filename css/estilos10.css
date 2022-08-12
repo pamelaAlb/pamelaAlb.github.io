@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #E7C1F5;
+	font-family: arial;
+}
+.title_body h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 15px 0px 10px;
+	color: #BF81E5;
+	text-shadow: 0px 0px 10px #ffffff;
+}
+.title_body h4{
+	text-align: center;
+	font-size: 13px;
+	color: #4A1D65;
+	text-shadow: 0px 0px 10px #ffffff;
+}
+.contenedor {
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.tabla {
+	width: 33%;
+	height: 550px;
+	margin: auto;
+	border: 1px solid #37A3F7;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #37A3F7;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color: #9B27E7;
+}
+.tabla>h2{
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.tabla img{
+	width: 120px;
+	height: 100px;
+	margin-bottom: 35px;
+}
+.tabla>h3{
+	font-size: 30px;
+	border-bottom: 20px;
+}
+.tabla>p{
+	display: block;
+	border-bottom: 20px;
+}
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #CB47E8;
+	text-decoration: none;
+	color: white;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	margin: auto;
+	margin-top: 25px;
+}
+	.boton:hover{
+    background-color: #FF17DF;
+    transform: scale(1.1);
+    transition: all 500ms;
+
+}
+.tabla:hover, .hover{
+	background: #A87FF8;
+	color: #603DA5;
+	transition: 0.5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+@media screen and (max-width 700px){
+	.tabla{
+		width: 45%;
+		padding: 30px;
+}
+.tabla > h2 {
+	margin-top: 40px;
+}
+@media screen and (max-width 550px){
+	.tabla{
+		width: 85%;
+		padding: 20px;
+	}
+	footer {
+		margin-top: 40px;
+	}
+.footer-copy-redes{
+	width: 100%;
+	background: #081d2b;
+	border-top: 4px solid white;
+	margin-top: 60px;
+}
+
+.footer-redes a{
+	display: inline-block;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.footer-redes a:hover{
+	transform: scale(0.8);
+	transition: all 400ms;
+	cursor: pointer;
+}

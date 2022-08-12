@@ -1,0 +1,94 @@
+body{
+	background-image: linear-gradient(350deg, #7FBFFE, #66B0FA 50%, #1688FA 100%);
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	padding: 5% 2%;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+.box{
+	flex: 1;
+	overflow: hidden;
+	margin: 9px;
+	line-height: 0;
+	-webkit-box-shadow: -1px 22px 17px -8px rgba(192, 22, 250)
+}
+
+.box > img{
+	width: 150%;
+	height:calc(100% - 10vh);
+	object-fit: cover;
+	transition: 0.2s;
+}
+
+.box > span{
+	font-size: 35px;
+	font-family: Maiandra GD;
+	display: block;
+	text-align: center;
+	height: 11vh;
+	line-height: 2.7;
+}
+
+.box:hover{
+	flex: 40%;
+}
+
+.box:hover > img{
+	width: 100%;
+	height: 100%;
+}
+
+#titulo{
+	text-align: center;
+}
+
+.titulo{
+	color: white;
+	text-align: center;
+}
+
+.footer-copy-redes{
+	width: 100%;
+	
+}
+
+.main-copy-redes{
+	width: 99%;
+	max-width: 1000px;
+	padding: 15px 0px;
+	margin: auto;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-between;
+	align-items:center;
+	color: black;
+}
+
+.main-copy-redes .footer-copy{
+	width: 100%;
+	text-align: center;
+}
+
+.main-copy-redes .footer-redes{
+	width: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-redes a{
+	display: inline-block;
+	text-decoration: none;
+	height:35px;
+	width:35px;
+	line-height:35px;
+	border-radius: 50%;
+	background: black;
+	color: #E4AEF6;
+	text-align: center;
+}
